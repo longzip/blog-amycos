@@ -63,6 +63,11 @@ export async function getAllPostsForHome(preview) {
   const data = await fetchAPI(
     `
     query AllPosts {
+      blogPage: pageBy(uri: "blog/blog") {
+        seo {
+          fullHead
+        }
+      }
       posts(first: 20, where: { orderby: { field: DATE, order: DESC } }) {
         edges {
           node {
@@ -98,7 +103,7 @@ export async function getAllPostsForHome(preview) {
     }
   )
 
-  return data?.posts
+  return {allPosts: data?.posts, blogPage: data?.blogPage}
 }
 
 export async function getPostAndMorePosts(slug, preview, previewData) {
@@ -148,6 +153,9 @@ export async function getPostAndMorePosts(slug, preview, previewData) {
             name
           }
         }
+      }
+      seo {
+        fullHead
       }
     }
     query PostBySlug($id: ID!, $idType: PostIdType!) {
