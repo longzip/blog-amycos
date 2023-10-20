@@ -37,7 +37,7 @@ export default function Document() {
             dangerouslySetInnerHTML={{
               __html: `
             var chatbox = document.getElementById('fb-customer-chat');
-            chatbox.setAttribute("page_id", "${FB_PAGE_ID}");
+            chatbox.setAttribute("page_id", "${process.env.FB_PAGE_ID}");
             chatbox.setAttribute("attribution", "biz_inbox");
 
             window.fbAsyncInit = function() {
