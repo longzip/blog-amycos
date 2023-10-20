@@ -78,6 +78,7 @@ export async function getAllPostsForHome(preview) {
             featuredImage {
               node {
                 sourceUrl
+                altText
               }
             }
             author {
@@ -133,6 +134,7 @@ export async function getPostAndMorePosts(slug, preview, previewData) {
       featuredImage {
         node {
           sourceUrl
+          altText
         }
       }
       author {
