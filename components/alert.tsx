@@ -27,7 +27,7 @@ export default function Alert({ preview }) {
               *** Trở thành KH Thân Thiết hoặc Đại Lý & Được hưởng chiết khấu từ
               10% – 41% với Đơn hàng từ 1.000.000đ:{" "}
               <a
-                href="https://store.amycos.vn/membership/"
+                href="https://www.amycos.vn/membership/"
                 className="underline hover:text-success duration-200 transition-colors"
               >
                 Click & Đăng Ký
