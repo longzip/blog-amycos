@@ -49,13 +49,13 @@ async function generateSitemap() {
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
       <!--We manually set the two URLs we know already-->
       <url>
-        <loc>https://blog.amycos.shop/</loc>
+        <loc>https://blog.amycos.vn/</loc>
       </url>
       ${posts.edges
         .map(({ node }) => {
           return `
         <url>
-            <loc>${`https://blog.amycos.shop/${node.slug}/`}</loc>
+            <loc>${`https://blog.amycos.vn/${node.slug}/`}</loc>
         </url>
       `;
         })
