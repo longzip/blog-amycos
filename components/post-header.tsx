@@ -3,6 +3,7 @@ import Date from "./date";
 import CoverImage from "./cover-image";
 import PostTitle from "./post-title";
 import Categories from "./categories";
+import { useState, useEffect } from "react";
 
 export default function PostHeader({
   title,
@@ -11,6 +12,10 @@ export default function PostHeader({
   author,
   categories,
 }) {
+  const [isClient, setIsClient] = useState(false);
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
   return (
     <>
       <PostTitle>{title}</PostTitle>
@@ -28,6 +33,14 @@ export default function PostHeader({
           Đăng <Date dateString={date} />
           <Categories categories={categories} />
         </div>
+        {isClient ? (
+          <div
+            className="zalo-follow-only-button items-center"
+            data-oaid="939846860985963068"
+          ></div>
+        ) : (
+          ""
+        )}
       </div>
     </>
   );

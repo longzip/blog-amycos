@@ -58,6 +58,7 @@ export default function Document() {
             }}
           />
         ) : null}
+        <script async src="https://sp.zalo.me/plugins/sdk.js" />
       </body>
     </Html>
   );

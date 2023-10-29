@@ -2,19 +2,23 @@
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
       <!--We manually set the two URLs we know already-->
       <url>
-        <loc>https://blog.amycos.shop/</loc>
+        <loc>https://blog.amycos.vn/</loc>
       </url>
       
         <url>
-            <loc>https://blog.amycos.shop/cach-chon-sua-rua-mat-phu-hop-cho-tung-loai-da/</loc>
+            <loc>https://blog.amycos.vn/5-loi-ich-khi-lam-cong-tac-vien-ban-my-pham-amycos/</loc>
         </url>
       
         <url>
-            <loc>https://blog.amycos.shop/quy-trinh-cham-soc-da-mat/</loc>
+            <loc>https://blog.amycos.vn/cach-chon-sua-rua-mat-phu-hop-cho-tung-loai-da/</loc>
         </url>
       
         <url>
-            <loc>https://blog.amycos.shop/uu-diem-cua-kem-chong-nang-amycos/</loc>
+            <loc>https://blog.amycos.vn/quy-trinh-cham-soc-da-mat/</loc>
+        </url>
+      
+        <url>
+            <loc>https://blog.amycos.vn/uu-diem-cua-kem-chong-nang-amycos/</loc>
         </url>
       
     </urlset>
