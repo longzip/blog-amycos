@@ -34,10 +34,20 @@ export default function PostHeader({
           <Categories categories={categories} />
         </div>
         {isClient ? (
-          <div
-            className="zalo-follow-only-button items-center"
-            data-oaid="939846860985963068"
-          ></div>
+          <>
+            <div
+              className="zalo-follow-only-button items-center"
+              data-oaid="939846860985963068"
+            ></div>
+            <div
+              className="zalo-share-button"
+              data-href=""
+              data-oaid="939846860985963068"
+              data-layout="1"
+              data-color="blue"
+              data-customize="false"
+            ></div>
+          </>
         ) : (
           ""
         )}
