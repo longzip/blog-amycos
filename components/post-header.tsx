@@ -11,6 +11,7 @@ export default function PostHeader({
   date,
   author,
   categories,
+  slug,
 }) {
   const [isClient, setIsClient] = useState(false);
   useEffect(() => {
@@ -41,7 +42,7 @@ export default function PostHeader({
             ></div>
             <div
               className="zalo-share-button"
-              data-href=""
+              data-href={`https://blog.amycos.vn/${slug}/`}
               data-oaid="939846860985963068"
               data-layout="1"
               data-color="blue"
