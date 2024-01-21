@@ -10,7 +10,11 @@ export default function Avatar({ author }) {
       <div className="w-12 h-12 relative mr-4">
         <img src={author.node.avatar.url} className="rounded-full" alt={name} />
       </div>
-      <div className="text-xl font-bold">{name}</div>
+      <div className="text-xl font-bold">
+        <a target="_blank" href={author.node.url}>
+          {name}
+        </a>
+      </div>
     </div>
   );
 }

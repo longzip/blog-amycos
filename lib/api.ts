@@ -125,6 +125,7 @@ export async function getPostAndMorePosts(slug, preview, previewData) {
       avatar {
         url
       }
+      url
     }
     fragment PostFields on Post {
       title
