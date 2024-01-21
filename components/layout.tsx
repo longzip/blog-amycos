@@ -7,8 +7,8 @@ export default function Layout({ preview, children }) {
   return (
     <LiveChatLoaderProvider
       provider="messenger"
-      providerKey="359655584681683"
-      appID="359655584681683"
+      providerKey="103350567990132"
+      appID="103350567990132"
       locale="vi_VN"
     >
       <>
@@ -18,7 +18,11 @@ export default function Layout({ preview, children }) {
           <main>{children}</main>
         </div>
         <Footer />
-        <Messenger />
+        <Messenger
+          color="#FF7E29"
+          loggedInGreeting="Xin chào! Chúng tôi có thể giúp gì cho bạn?"
+          loggedOutGreeting="Xin chào! Chúng tôi có thể giúp gì cho bạn?"
+        />
       </>
     </LiveChatLoaderProvider>
   );
