@@ -7,8 +7,8 @@ export default function Layout({ preview, children }) {
   return (
     <LiveChatLoaderProvider
       provider="messenger"
-      providerKey="103350567990132"
-      appID="103350567990132"
+      providerKey="359655584681683"
+      appID="359655584681683"
       locale="vi_VN"
     >
       <>

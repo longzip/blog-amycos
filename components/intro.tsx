@@ -7,10 +7,10 @@ export default function Intro() {
       <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">
         Là phụ nữ, nhất định phải xinh đẹp và tự tin. Hãy cùng{" "}
         <a
-          href="https://www.amycos.vn/"
+          href="https://lanmycosmetics.amycos.vn/"
           className="underline hover:text-success duration-200 transition-colors"
         >
-          Mỹ Phẩm Amycos
+          Lan My Cosmetics
         </a>{" "}
         khám phá những bí quyết làm đẹp thú vị nhé .
       </h4>
