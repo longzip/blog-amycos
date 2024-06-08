@@ -16,6 +16,15 @@ export default function Document() {
         <NextScript />
 
         <script async src="https://sp.zalo.me/plugins/sdk.js" />
+
+        <script
+          type="text/javascript"
+          id="hs-script-loader"
+          async
+          defer
+          src="//js.hs-scripts.com/44095848.js"
+        />
+
         <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-8EFLJMH5H8"
