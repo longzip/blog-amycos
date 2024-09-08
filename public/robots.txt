@@ -3,6 +3,6 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://blog.amycos.shop/sitemap.xml
+Sitemap: https://blog.amycos.vn/sitemap.xml
 # ---------------------------
 # END YOAST BLOCK

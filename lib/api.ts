@@ -51,6 +51,7 @@ export async function getAllPostsWithSlug() {
         edges {
           node {
             slug
+            dateGmt
           }
         }
       }

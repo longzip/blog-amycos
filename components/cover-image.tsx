@@ -1,5 +1,7 @@
 import cn from "classnames";
 import Link from "next/link";
+import Image from 'next/image';
+import { ImageLoader } from '../lib/image-loader';
 
 interface Props {
   title: string;
@@ -14,7 +16,8 @@ interface Props {
 
 export default function CoverImage({ title, coverImage, slug }: Props) {
   const image = (
-    <img
+    <Image
+    loader={ImageLoader}
       width={2000}
       height={1000}
       alt={coverImage?.node.altText}
